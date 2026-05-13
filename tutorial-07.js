@@ -72,3 +72,6 @@ function add(pera1, pera2){
 
 add(2,4,10,15);
 //প্রত্যেক টা function এর ভেতরে একটা default object থাকে। এইটা কে array like object বলে ঃ arguments . আবার আমরা চাইলে এই arguments ke array te convart korte pari spread operator diye.
+
+
+
