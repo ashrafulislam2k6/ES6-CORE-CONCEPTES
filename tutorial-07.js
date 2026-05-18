@@ -26,9 +26,11 @@ function updateMultiply (num,num2){
 
 const n = 10;
 const m = 20; 
-console.log('after calling ', n,m);
+console.log('before calling ', n,m);
 const total = updateMultiply(n,m);
 console.log(total);
+
+console.log('after calling:',n,m);
 
 // কোন একটা function e কোন primitive মান পাঠালে , function er ভেতরে মান change হলেও , original value change হবে না। 
 
@@ -53,6 +55,8 @@ const num2  =[4,5,6];
 console.log('before the function call:', num1, num2);
 
 const   firstResult = firstSum(num1, num2);
+console.log(firstResult);
+
 console.log('after the function call :', num1, num2);
 
 // কোন একটা function e কোন nonPrimitive মান পাঠালে , function er ভেতরে মান change হলেও , original value change হবে। 

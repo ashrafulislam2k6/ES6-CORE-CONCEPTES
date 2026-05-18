@@ -91,8 +91,8 @@ console.log(doubleIs);
  // todo:          map এর খালাতো ভাই ,  foreach()
 
 const books= [{name:'bangla', prise:'2000taka', brand:'hack'},
-      {name:'english', prise:'2040taka', brand:'hack'},
-      {name:'math', prise:'200taka', brand:'hack'}
+              {name:'english', prise:'2040taka', brand:'hack'},
+              {name:'math', prise:'200taka', brand:'hack'}
 ]
 
 const eachResult = books.forEach((name, index, booksArray) =>{
